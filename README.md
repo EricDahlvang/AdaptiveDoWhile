@@ -156,7 +156,8 @@ namespace Microsoft.Bot.Builder.Dialogs.Adaptive.Actions
 }
 ```
 
-Example in Composer:
+Integration: https://github.com/EricDahlvang/BotFramework-Composer/pull/3
 
+![Composer](ComposerDoWhile.png)
 
 
