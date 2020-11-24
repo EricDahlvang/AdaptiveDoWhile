@@ -133,7 +133,7 @@ namespace Microsoft.Bot.Builder.Dialogs.Adaptive.Actions
             "title": "Disabled",
             "description": "Optional condition which if true will disable this action.",
             "examples": [
-                "user.age > 18"
+                "user.age < 18"
             ]
         },
         "condition": {
@@ -141,7 +141,7 @@ namespace Microsoft.Bot.Builder.Dialogs.Adaptive.Actions
             "title": "Disabled",
             "description": "Optional condition which must evaluate to true for actions to continue processing.",
             "examples": [
-                "user.age > 18"
+                "dialog.quit != true"
             ]
         },
         "actions": {
